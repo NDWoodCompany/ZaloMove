@@ -5,6 +5,7 @@ Thao tác đơn giản với click chuột.
 Hướng dẫn làm thủ công:
 Tạo Các folder
 Ở hướng dẫn này tôi move qua D:
+
 Bước 1:
 Tạo các thư mục sau:
 D:\Zalo\
