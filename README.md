@@ -1,6 +1,9 @@
 Giúp bạn thay đổi vị trí lưu Zalo.
+
 Giảm béo cho ổ C khi Zalo lưu quá nhiều videos, hình ảnh,...
+
 Thao tác đơn giản với click chuột.
+
 ![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/c870c8e3-3a82-403b-9eca-f9d661185d27)
 
 Hướng dẫn làm thủ công:
