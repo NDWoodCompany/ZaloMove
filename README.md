@@ -4,7 +4,7 @@ Thao tác đơn giản với click chuột.
 ![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/c870c8e3-3a82-403b-9eca-f9d661185d27)
 
 Hướng dẫn làm thủ công:
-Tạo Các folder
+
 Ở hướng dẫn này tôi move qua D:
 
 Bước 1:
@@ -52,11 +52,17 @@ move /-y "%LocalAppData%\Programs\Zalo" "D:\Zalo"
 move /-y "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo"
 
 
+
 Bước 3: Tạo liên kết thư mục
 
 mklink /d "%LocalAppData%\ZaloPC" "D:\Zalo\ZaloPC"
+
 mklink /d "%appdata%\ZaloData" "D:\Zalo\ZaloData"
+
 mklink /d "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo"
+
 mklink /d "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\ZaloReceivedFiles"
+
+
 
 Sau khi hoàn thành các bước trên thì mở Zalo từ "D:\Zalo\Zalo\Zalo.exe" Thay các đường dẫn shortcut nếu muốn đảm bảo không lỗi.
