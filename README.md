@@ -4,7 +4,29 @@ Giảm béo cho ổ C khi Zalo lưu quá nhiều videos, hình ảnh,...
 
 Thao tác đơn giản với click chuột.
 
-![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/c870c8e3-3a82-403b-9eca-f9d661185d27)
+![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/db3446be-93d5-405a-9ac8-478347707755)
+
+
+Hướng dẫn sử dụng tool:
+
+Bước 1: Mở tool với quyền administrator
+
+Bước 2: Chọn nơi muốn lưu Zalo. (Mặc định mình chọn là ổ D).
+
+Bước 3: Chọn thư mục muốn di chuyển. (Mặc định là di chuyển cả 4 thư mục)
+
+Bước 4: Chọn nơi muốn tạo lối tắt.
+
+Bước 5: Chọn chế độ:
+
+5.1: [Di chuyển] là sẽ cut thư mục qua vị trí mới luôn
+
+5.1: [Sao chép] là sẽ copy thư mục qua vị trí mới và đổi tên thư mục ở vị trí gốc để dự phòng lỗi.
+
+Bước 6: Click [BẮT ĐẦU DI CHUYỂN]. Chờ đợi cho đến khi hoàn thành việc di chuyển.
+
+Lưu ý: Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.
+
 
 Hướng dẫn làm thủ công:
 
