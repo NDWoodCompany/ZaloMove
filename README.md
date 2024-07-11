@@ -11,7 +11,7 @@ Hướng dẫn sử dụng tool:
 
 Bước 1: Mở tool với quyền administrator
 
-Bước 2: Chọn nơi muốn lưu Zalo. (Mặc định mình chọn là ổ D).
+Bước 2: Click [] Chọn nơi muốn lưu Zalo. (Mặc định mình chọn là ổ D).
 
 Bước 3: Chọn thư mục muốn di chuyển. (Mặc định là di chuyển cả 4 thư mục)
 
