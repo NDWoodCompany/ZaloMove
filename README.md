@@ -11,7 +11,7 @@ Hướng dẫn sử dụng tool:
 
 Bước 1: Mở tool với quyền administrator
 
-Bước 2: Click [] Chọn nơi muốn lưu Zalo. (Mặc định mình chọn là ổ D).
+Bước 2: Click [![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/6f791042-acde-4ac2-90a8-b81cc5c532f2)] Chọn nơi muốn lưu Zalo. (Mặc định mình chọn là ổ D).
 
 Bước 3: Chọn thư mục muốn di chuyển. (Mặc định là di chuyển cả 4 thư mục)
 
