@@ -47,7 +47,9 @@ ZaloData: Ứng dụng zalo để chạy
 ZaloReceivedFiles: download file từ Zalo
 
 
-Bước 2: Chuyển dữ liệu bằng cmd
+Bước 2: Chuyển dữ liệu (cần quyền administrator mới chuyển được). Làm thủ công hoặc dùng cmd như sau:
+
+Mở cmd với quyền administrator. Copy/paste các lệnh:
 
 xcopy "%LocalAppData%\ZaloPC" "D:\Zalo\ZaloPC" /h /i /c /k /e /r /y
 
