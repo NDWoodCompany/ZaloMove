@@ -47,6 +47,8 @@ ZaloData: Ứng dụng zalo để chạy
 ZaloReceivedFiles: download file từ Zalo
 
 
+Lệnh cmd:
+
 mkdir D:\Zalo\Zalo
 
 mkdir D:\Zalo\ZaloPC
