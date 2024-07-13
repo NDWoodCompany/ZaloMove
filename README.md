@@ -29,6 +29,7 @@ _**Lưu ý: Trong quá trình tool làm việc không nên mở Zalo để trán
 
 
 
+
 **Hướng dẫn làm thủ công:**
 
 Ở hướng dẫn này tôi move qua D:
@@ -44,6 +45,7 @@ ZaloPC: Lưu
 ZaloData: Ứng dụng zalo để chạy
 
 ZaloReceivedFiles: download file từ Zalo
+
 
 
 _Bước 2. Chuyển dữ liệu_ (cần quyền administrator mới chuyển được). Làm thủ công hoặc dùng cmd như sau:
@@ -79,6 +81,7 @@ move /-y "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo"
 
 
 
+
 _Bước 3: Tạo liên kết thư mục_
 
 mklink /d "%LocalAppData%\ZaloPC" "D:\Zalo\ZaloPC"
@@ -88,6 +91,7 @@ mklink /d "%appdata%\ZaloData" "D:\Zalo\ZaloData"
 mklink /d "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo"
 
 mklink /d "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\ZaloReceivedFiles"
+
 
 
 Lưu ý: Trước khi liên kết thư mục phải kiểm tra các thư mục sau đã có hay chưa? Chưa có thì sao chép hoặc di chuyển qua.
@@ -109,6 +113,7 @@ Và các thư mục sau đã xóa hay đổi tên hay chưa? Nếu chưa thì x�
 "%LocalAppData%\Programs\Zalo"
 
 "%USERPROFILE%\Documents\Zalo Received Files"
+
 
 
 Sau khi hoàn thành các bước trên thì mở Zalo từ "D:\Zalo\Zalo\Zalo.exe" Thay các đường dẫn shortcut nếu muốn đảm bảo không lỗi.
