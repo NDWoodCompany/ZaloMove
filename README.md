@@ -7,7 +7,7 @@ Thao tác đơn giản với click chuột.
 ![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/db3446be-93d5-405a-9ac8-478347707755)
 
 
-Hướng dẫn sử dụng tool:
+**Hướng dẫn sử dụng tool:**
 
 Bước 1: Mở tool với quyền administrator
 
@@ -25,16 +25,15 @@ Bước 5: Chọn chế độ:
 
 Bước 6: Click [BẮT ĐẦU DI CHUYỂN]. Chờ đợi cho đến khi hoàn thành việc di chuyển.
 
-Lưu ý: Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.
+_**Lưu ý: Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.**_
 
 
-Hướng dẫn làm thủ công:
+
+**Hướng dẫn làm thủ công:**
 
 Ở hướng dẫn này tôi move qua D:
 
-Bước 1:
-
-Tạo các thư mục sau:
+_Bước 1. Tạo các thư mục sau:_
 
 D:\Zalo\
 
@@ -47,7 +46,7 @@ ZaloData: Ứng dụng zalo để chạy
 ZaloReceivedFiles: download file từ Zalo
 
 
-Bước 2: Chuyển dữ liệu (cần quyền administrator mới chuyển được). Làm thủ công hoặc dùng cmd như sau:
+_Bước 2. Chuyển dữ liệu_ (cần quyền administrator mới chuyển được). Làm thủ công hoặc dùng cmd như sau:
 
 Mở cmd với quyền administrator. Copy/paste các lệnh:
 
@@ -80,7 +79,7 @@ move /-y "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo"
 
 
 
-Bước 3: Tạo liên kết thư mục
+_Bước 3: Tạo liên kết thư mục_
 
 mklink /d "%LocalAppData%\ZaloPC" "D:\Zalo\ZaloPC"
 
