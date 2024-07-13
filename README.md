@@ -91,5 +91,25 @@ mklink /d "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo"
 mklink /d "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\ZaloReceivedFiles"
 
 
+Lưu ý: Trước khi liên kết thư mục phải kiểm tra các thư mục sau đã có hay chưa? Chưa có thì sao chép hoặc di chuyển qua.
+
+"D:\Zalo\ZaloPC"
+
+"D:\Zalo\ZaloData"
+
+"D:\Zalo\Zalo"
+
+"D:\Zalo\ZaloReceivedFiles"
+
+Và các thư mục sau đã xóa hay đổi tên hay chưa? Nếu chưa thì xóa hoặc đổi tên đi.
+
+"%LocalAppData%\ZaloPC"
+
+"%appdata%\ZaloData"
+
+"%LocalAppData%\Programs\Zalo"
+
+"%USERPROFILE%\Documents\Zalo Received Files"
+
 
 Sau khi hoàn thành các bước trên thì mở Zalo từ "D:\Zalo\Zalo\Zalo.exe" Thay các đường dẫn shortcut nếu muốn đảm bảo không lỗi.
