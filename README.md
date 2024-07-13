@@ -48,8 +48,11 @@ ZaloReceivedFiles: download file từ Zalo
 
 
 mkdir D:\Zalo\Zalo
+
 mkdir D:\Zalo\ZaloPC
+
 mkdir D:\Zalo\ZaloData
+
 mkdir D:\Zalo\ZaloReceivedFiles
 
 
