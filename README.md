@@ -47,6 +47,13 @@ ZaloData: Ứng dụng zalo để chạy
 ZaloReceivedFiles: download file từ Zalo
 
 
+mkdir D:\Zalo\Zalo
+mkdir D:\Zalo\ZaloPC
+mkdir D:\Zalo\ZaloData
+mkdir D:\Zalo\ZaloReceivedFiles
+
+
+
 
 _Bước 2. Chuyển dữ liệu_ (cần quyền administrator mới chuyển được). Làm thủ công hoặc dùng cmd như sau:
 
