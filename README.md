@@ -4,7 +4,8 @@ Giảm béo cho ổ C khi Zalo lưu quá nhiều videos, hình ảnh,...
 
 Thao tác đơn giản với click chuột.
 
-![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/db3446be-93d5-405a-9ac8-478347707755)
+![image](https://github.com/user-attachments/assets/397dc6ad-fbf0-4a02-9da2-0f2f91f9f8cb)
+
 
 
 **Hướng dẫn sử dụng tool:**
