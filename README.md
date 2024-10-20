@@ -16,15 +16,17 @@ Bước 2: Click [![image](https://github.com/NDWoodCompany/ZaloMove/assets/1022
 
 Bước 3: Chọn thư mục muốn di chuyển. (Mặc định là di chuyển cả 4 thư mục)
 
-Bước 4: Chọn nơi muốn tạo lối tắt.
+Bước 4: Chọn chế độ:
 
-Bước 5: Chọn chế độ:
+4.1: [Di chuyển] là sẽ cut thư mục qua vị trí mới luôn
 
-5.1: [Di chuyển] là sẽ cut thư mục qua vị trí mới luôn
+4.1: [Sao chép] là sẽ copy thư mục qua vị trí mới và đổi tên thư mục ở vị trí gốc để dự phòng lỗi.
 
-5.1: [Sao chép] là sẽ copy thư mục qua vị trí mới và đổi tên thư mục ở vị trí gốc để dự phòng lỗi.
+Bước 5: Click [TỰ ĐỘNG]. Chờ đợi cho đến khi hoàn thành việc di chuyển.
 
-Bước 6: Click [BẮT ĐẦU DI CHUYỂN]. Chờ đợi cho đến khi hoàn thành việc di chuyển.
+
+**Chế độ thủ công thì các bạn cứ chọn từng cái các bạn muốn di chuyển, sao chép sau đó click chọn ở bảng bên trái để tạo liên kết. Bảng bên trái hiện lên tích thì đã liên kết thành công.**
+
 
 _**Lưu ý: Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.**_
 
