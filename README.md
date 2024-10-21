@@ -18,9 +18,11 @@ Bước 3: Chọn thư mục muốn di chuyển. (Mặc định là di chuyển 
 
 Bước 4: Chọn chế độ:
 
-4.1: [Di chuyển] là sẽ cut thư mục qua vị trí mới luôn
-
 4.1: [Sao chép] là sẽ copy thư mục qua vị trí mới và đổi tên thư mục ở vị trí gốc để dự phòng lỗi.
+
+4.2: [Di chuyển] là sẽ cut thư mục qua vị trí mới luôn
+
+Ưu tiên sao chép khi di chuyển Zalo. Sau khi sao chép và sử dụng Zalo ổn định thì bạn tiến hành xoá thư mục *-Old
 
 Bước 5: Click [TỰ ĐỘNG]. Chờ đợi cho đến khi hoàn thành việc di chuyển.
 
