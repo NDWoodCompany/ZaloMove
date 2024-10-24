@@ -4,7 +4,8 @@ Giảm béo cho ổ C khi Zalo lưu quá nhiều videos, hình ảnh,...
 
 Thao tác đơn giản với click chuột.
 
-![image](https://github.com/user-attachments/assets/397dc6ad-fbf0-4a02-9da2-0f2f91f9f8cb)
+![image](https://github.com/user-attachments/assets/779bc749-e79e-43df-ab97-27f5a181cf52)
+
 
 
 
@@ -14,24 +15,30 @@ Bước 1: Mở tool với quyền administrator
 
 Bước 2: Click [![image](https://github.com/NDWoodCompany/ZaloMove/assets/102244520/6f791042-acde-4ac2-90a8-b81cc5c532f2)] Chọn nơi muốn lưu Zalo. (Mặc định mình chọn là ổ D).
 
-Bước 3: Chọn thư mục muốn di chuyển. (Mặc định là di chuyển cả 4 thư mục)
+Bước 3: Chọn thư mục muốn di chuyển. (Mặc định là di chuyển cả 5 thư mục)
 
-Bước 4: Chọn chế độ:
+Bước 4: Chọn chế độ: (Bước này mình đã ẩn nên các bạn bỏ qua)
 
-4.1: [Sao chép] là sẽ copy thư mục qua vị trí mới và đổi tên thư mục ở vị trí gốc để dự phòng lỗi.
+4.1: [Sao chép] là sẽ copy thư mục qua vị trí mới và đổi tên thư mục ở vị trí gốc để dự phòng lỗi. (**Mặc định**)
 
-4.2: [Di chuyển] là sẽ cut thư mục qua vị trí mới luôn
+4.2: [Di chuyển] là sẽ copy thư mục qua vị trí mới và xoá thư mục gốc đi.
 
 Ưu tiên sao chép khi di chuyển Zalo. Sau khi sao chép và sử dụng Zalo ổn định thì bạn tiến hành xoá thư mục *-Old
 
 Bước 5: Click [TỰ ĐỘNG]. Chờ đợi cho đến khi hoàn thành việc di chuyển.
 
+Sau khi di chuyển xong sẽ có chữ X màu đỏ xuất hiện. Đây là thư mục gốc mình đổi tên dự phòng. Các bạn mở Zalo lên dùng nếu thấy ổn thì có nhấn để xoá đi.
+
+Còn nếu Zalo bị lỗi. Các bạn bỏ tích ở bảng chọn bên phải để xoá liên kết. Sau đó mở thư mục bằng nút ở bảng bên trái. Đổi tên lại như cũ (xoá chữ "-Old" đi) và tiến hàng di chuyển lại.
 
 **Chế độ thủ công thì các bạn cứ chọn từng cái các bạn muốn di chuyển, sao chép sau đó click chọn ở bảng bên trái để tạo liên kết. Bảng bên trái hiện lên tích thì đã liên kết thành công.**
 
 
-_**Lưu ý: Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.**_
+_**Lưu ý 1: Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.**_
 
+**Lưu ý 2: Nếu các bạn cài lại win thì dùng tool này tạo lại liên kết để dùng tiếp Zalo không bị mất dữ liệu**
+Cách thực hiện sau khi cài lại win.
+Sau Bước 1, Bước 2 ở trên thì các lựa chọn sẽ sáng lên nếu có thư mục dữ liệu. Các bạn tích chọn để tạo liên kết và sử dụng.
 
 
 
