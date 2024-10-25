@@ -44,56 +44,57 @@ Sau Bước 1, Bước 2 ở trên thì các lựa chọn sẽ sáng lên nếu 
 
 **Hướng dẫn làm thủ công:**
 
-Ở hướng dẫn này tôi move qua D:
-
-_Bước 1. Tạo các thư mục sau:_
-
-D:\Zalo\
-
+Ở hướng dẫn này tôi di chuyển qua ổ D: 5 thư mục (Các bạn di chuyển 3 cái ở giữa thôi cũng được. 3 cái đó nặng nhất)
 Zalo
+ZaloPC
+ZaloData
+Zalo Received Files
+zalo-updater
 
-ZaloPC: Lưu
+Bước 1: Tạo thư mục Zalo trong D
+Bạn có thể dùng lệnh cmd dưới để tạo
+Mở Command Prompt copy/paste vào
 
-ZaloData: Ứng dụng zalo để chạy
+mkdir "D:\Zalo"
 
-ZaloReceivedFiles: download file từ Zalo
+mkdir "D:\Zalo\Zalo Received Files"
 
+Bước 2. Di chuyển dữ liệu sang ổ D
 
-Lệnh cmd:
+Chuyển Zalo Received Files qua D thì vào Cài đặt > Tin nhắn > File được lưu tại thư mục: > Thay đổi nó qua ổ D cũng được. Nếu dùng tính năng của Zalo thì các bước sau các bạn bỏ qua thư mục này.
 
-mkdir D:\Zalo\Zalo
-
-mkdir D:\Zalo\ZaloPC
-
-mkdir D:\Zalo\ZaloData
-
-mkdir D:\Zalo\ZaloReceivedFiles
+Tắt hoàn toàn zalo đi. Chuột phải vào biểu tượng zalo dưới taskbar (hoặc vào task manager kiểm tra và tắt cho chắc)
 
 
+Di chuyển toàn bộ 3 thư mục còn lại qua ổ D. Bạn làm thủ công hoặc dùng lệnh dưới:
 
+Mở Command Prompt copy/paste vào
 
-_Bước 2. Chuyển dữ liệu_ (cần quyền administrator mới chuyển được). Làm thủ công hoặc dùng cmd như sau:
-
-Mở cmd với quyền administrator. Copy/paste các lệnh:
+xcopy "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo" /h /i /c /k /e /r /y
 
 xcopy "%LocalAppData%\ZaloPC" "D:\Zalo\ZaloPC" /h /i /c /k /e /r /y
 
 xcopy "%appdata%\ZaloData" "D:\Zalo\ZaloData" /h /i /c /k /e /r /y
 
-xcopy "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo" /h /i /c /k /e /r /y
+xcopy "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\Zalo Received Files" /h /i /c /k /e /r /y
 
-xcopy "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\ZaloReceivedFiles" /h /i /c /k /e /r /y
+xcopy "%appdata%\zalo-updater" "D:\Zalo\zalo-updater" /h /i /c /k /e /r /y
+
+
+Ren "%LocalAppData%\Programs\Zalo" "Zalo-Old"
 
 Ren "%LocalAppData%\ZaloPC" "ZaloPC-Old"
 
 Ren "%appdata%\ZaloData" "ZaloData-Old"
 
-Ren "%LocalAppData%\Programs\Zalo" "Zalo-Old"
+Ren "USERPROFILE%\Documents\Zalo Received Files" "Zalo Received Files-Old"
 
-Ren "%USERPROFILE%\Documents\Zalo Received Files" "Zalo Received Files-Old"
+Ren "%appdata%\zalo-updater" "zalo-updater-Old"
 
 
-Or
+Dùng lệnh này thì còn thư mục cũ đề phòng lỗi thì khôi phục lại
+
+Hoặc
 
 move /-y "%LocalAppData%\ZaloPC" "D:\Zalo"
 
@@ -103,10 +104,14 @@ move /-y "%LocalAppData%\Programs\Zalo" "D:\Zalo"
 
 move /-y "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo"
 
+move /-y "%appdata%\zalo-updater" "D:\Zalo"
+
+Lệnh này thì move luôn nha.
 
 
+Bước 3. Tạo liên kết thư mục
 
-_Bước 3: Tạo liên kết thư mục_
+Mở Command Prompt copy/paste vào
 
 mklink /d "%LocalAppData%\ZaloPC" "D:\Zalo\ZaloPC"
 
@@ -114,30 +119,12 @@ mklink /d "%appdata%\ZaloData" "D:\Zalo\ZaloData"
 
 mklink /d "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo"
 
-mklink /d "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\ZaloReceivedFiles"
+mklink /d "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\Zalo Received Files"
+
+mklink /d "%appdata%\zalo-updater" "D:\Zalo\zalo-updater"
 
 
-
-Lưu ý: Trước khi liên kết thư mục phải kiểm tra các thư mục sau đã có hay chưa? Chưa có thì sao chép hoặc di chuyển qua.
-
-"D:\Zalo\ZaloPC"
-
-"D:\Zalo\ZaloData"
-
-"D:\Zalo\Zalo"
-
-"D:\Zalo\ZaloReceivedFiles"
-
-Và các thư mục sau đã xóa hay đổi tên hay chưa? Nếu chưa thì xóa hoặc đổi tên đi.
-
-"%LocalAppData%\ZaloPC"
-
-"%appdata%\ZaloData"
-
-"%LocalAppData%\Programs\Zalo"
-
-"%USERPROFILE%\Documents\Zalo Received Files"
+Làm xong các bước trên thì vào mở Zalo trong "D:\Zalo\Zalo\Zalo.exe" lên dùng nha.
 
 
-
-Sau khi hoàn thành các bước trên thì mở Zalo từ "D:\Zalo\Zalo\Zalo.exe" Thay các đường dẫn shortcut nếu muốn đảm bảo không lỗi.
+Mình hướng dẫn xong rồi. Chúc các bạn thành công và vui vẻ.
