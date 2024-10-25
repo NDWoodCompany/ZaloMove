@@ -96,11 +96,11 @@ Dùng lệnh này thì còn thư mục cũ đề phòng lỗi thì khôi phục 
 
 Hoặc
 
+move /-y "%LocalAppData%\Programs\Zalo" "D:\Zalo"
+
 move /-y "%LocalAppData%\ZaloPC" "D:\Zalo"
 
 move /-y "%appdata%\ZaloData" "D:\Zalo"
-
-move /-y "%LocalAppData%\Programs\Zalo" "D:\Zalo"
 
 move /-y "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo"
 
@@ -113,11 +113,11 @@ Bước 3. Tạo liên kết thư mục
 
 Mở Command Prompt copy/paste vào
 
+mklink /d "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo"
+
 mklink /d "%LocalAppData%\ZaloPC" "D:\Zalo\ZaloPC"
 
 mklink /d "%appdata%\ZaloData" "D:\Zalo\ZaloData"
-
-mklink /d "%LocalAppData%\Programs\Zalo" "D:\Zalo\Zalo"
 
 mklink /d "%USERPROFILE%\Documents\Zalo Received Files" "D:\Zalo\Zalo Received Files"
 
