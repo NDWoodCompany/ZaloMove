@@ -39,7 +39,8 @@ _**Lưu ý 1: Trong quá trình tool làm việc không nên mở Zalo để tr�
 **Lưu ý 2: Nếu các bạn cài lại win thì dùng tool này tạo lại liên kết để dùng tiếp Zalo không bị mất dữ liệu**
 Cách thực hiện sau khi cài lại win.
 Sau Bước 1, Bước 2 ở trên thì các lựa chọn sẽ sáng lên nếu có thư mục dữ liệu. Các bạn tích chọn để tạo liên kết và sử dụng.
-
+Bạn đảm bảo các thư mục ZaloData, ZaloPC, Reveiced Files đã có liên kết. Sau đó bạn cài đặt lại Zalo (Cài đè luôn không gỡ Zalo cũ). Sau khi cài xong Nếu thích thì di chuyển thư mục Zalo ("%LocalAppData%\Programs\Zalo") và tạo lại liên kết. Sau đó mới tiến hàng đăng nhập zalo để sử dụng.
+Nếu bị trắng màn hình Zalo các bạn mở lại Zalo với quyền administrator để nó cập nhật là được.
 
 
 **Hướng dẫn làm thủ công:**
