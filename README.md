@@ -34,9 +34,14 @@ Còn nếu Zalo bị lỗi. Các bạn bỏ tích ở bảng chọn bên phải 
 **Chế độ thủ công thì các bạn cứ chọn từng cái các bạn muốn di chuyển, sao chép sau đó click chọn ở bảng bên trái để tạo liên kết. Bảng bên trái hiện lên tích thì đã liên kết thành công.**
 
 
-_**Lưu ý 1: Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.**_
+_**Lưu ý 1:**_
+
+_**Trong quá trình tool làm việc không nên mở Zalo để tránh lỗi.**_
+
+_**Đường dẫn để di chuyển Zalo không được có dấu, khoảng cách hay ký tự lạ, hay quá dài,... để tránh lỗi (ưu tiên đường dẫn mặc định)**_
 
 **Lưu ý 2: Nếu các bạn cài lại win thì dùng tool này tạo lại liên kết để dùng tiếp Zalo không bị mất dữ liệu**
+
 
 Cách thực hiện sau khi cài lại win.
 
