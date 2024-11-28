@@ -42,6 +42,8 @@ _**- Đường dẫn để di chuyển Zalo không được có dấu, khoảng 
 
 **Lưu ý 2: Nếu các bạn cài lại win thì dùng tool này tạo lại liên kết để dùng tiếp Zalo không bị mất dữ liệu**
 
+**Lưu ý 3: Tool của mình hiện tải chưa sử dụng được trên hệ thống boot LAN. Nếu bạn nào đang dùng boot LAN thì làm thủ công nha.**
+
 
 Cách thực hiện sau khi cài lại win.
 
